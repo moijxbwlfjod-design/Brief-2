@@ -358,3 +358,25 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+.games-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.games-text{
+    display: flex;
+    justify-content: center;
+}
+
+.games-text p{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.games-main{
+    display: flex;
+    flex-direction: column;
+}
