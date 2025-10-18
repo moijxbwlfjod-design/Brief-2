@@ -241,3 +241,120 @@ footer{
     justify-content: space-evenly;
 }
 
+.card{
+    width: 302px;
+    height: 418px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px 1px #00CFFF, -2px -2px 5px 1px #B300FF;
+}
+
+.title{
+    text-align: center;
+}
+
+.image{
+    width: 302px;
+    height: 224px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: -10px;
+}
+
+.members{
+    width: 118px;
+    height: 52px;
+}
+
+.members--icon{
+    display: flex;
+    height: 24px;
+    justify-content: center;
+}
+
+.members--icon p{
+    margin-top: 0;
+    color: #00CFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.members .normal-footer-text{
+    text-align: center;
+    margin-top: 0;
+}
+
+.wins{
+    width: 118px;
+    height: 52px;
+}
+
+.wins--icon{
+    display: flex;
+    height: 24px;
+    justify-content: center;
+}
+
+.wins--icon p{
+    margin-top: 0;
+    color: #B300FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.wins .normal-footer-text{
+    text-align: center;
+    margin-top: 0;
+}
+
+.members--wins{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cad-div-button{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.card--button{
+    background-color: none;
+    text-decoration: none;
+    color: #B300FF;
+    width: 100%;
+    border: 2px solid #B300FF;
+    text-align: center;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.teams-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.teams-text{
+    display: flex;
+    justify-content: center;
+}
+
+.teams-text p{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.teams-main{
+    display: flex;
+    flex-direction: column;
+}
