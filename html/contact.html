@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1 class="signup-h1">Sign Up</h1></header>
+    <main>
+        <form action="db.php" method="POST" class="sign-up-form">
+            <div class="sign-up-sections">
+                <div class="sign-up-section-L">
+                <label for="firstName">Fisrst Name:</label><br>
+                <input type="text" id="firstName" minlength="3" required placeholder="Mohamed"><br><br>
+                <label for="email">Email:</label><br>
+                <input id="email" type="email" required placeholder="example@email.com"><br><br>
+                <label for="conPass">Confirme Password:</label><br>
+                <input id="conPass" type="password" required minlength="8" placeholder="p@sswOrd">
+                </div>
+                <div class="sign-up-section-R">
+                <label for="lastName">Last Name:</label><br>
+                <input id="lastName" required minlength="3" placeholder="Ait Lafkih"><br><br>
+                <label for="pass">Password:</label><br>
+                <input type="password" id="pass" required minlength="8" placeholder="p@sswOrd"><br><br>
+                <label for="team">Team Name:</label><br>
+                <input type="text" id="team" placeholder="Nexus E-sports">
+                </div>
+            </div>
+            <button class="sign-up-button">Sign up</button>
+        </form>
+    </main>
+</body>
+</html>
